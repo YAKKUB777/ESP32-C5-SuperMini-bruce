@@ -25,7 +25,7 @@ on:
           - "esp32-s3-devkitc-1"
           - "esp32-c5"
           - "esp32-c5-tft"
-          - "ESP32-C5-SuperMini" 
+          - "esp32-c5-supermini" 
           - "CYD-2432S028"
           - "CYD-2USB"
           - "CYD-2432W328C"
