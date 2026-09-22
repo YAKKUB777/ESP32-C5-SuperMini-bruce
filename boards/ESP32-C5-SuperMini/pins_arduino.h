@@ -69,6 +69,11 @@ static const uint8_t SCK  = 6;
 #define SPI_READ_FREQUENCY 20000000
 #define SPI_TOUCH_FREQUENCY 2500000
 
+#define BAD_RX 4
+#define BAD_TX 5
+#define GPS_SERIAL_RX 4
+#define GPS_SERIAL_TX 5
+
 // -----------------------------------------------------------------------------
 // Buttons
 // -----------------------------------------------------------------------------
