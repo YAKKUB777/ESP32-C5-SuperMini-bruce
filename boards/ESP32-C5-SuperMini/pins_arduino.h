@@ -24,10 +24,10 @@ static const uint8_t RX = 12;
 // I2C
 // -----------------------------------------------------------------------------
 static const uint8_t SDA = 4;
-static const uint8_t SCL = 5;
+static const uint8_t SCL = 18;
 
 #define GROVE_SDA 4
-#define GROVE_SCL 5
+#define GROVE_SCL 18
 
 // -----------------------------------------------------------------------------
 // SPI
@@ -53,7 +53,7 @@ static const uint8_t SCK  = 6;
 
 #define TFT_BACKLIGHT_ON 1
 #define TFT_BL 9
-#define TFT_RST -1
+#define TFT_RST 5
 #define TFT_DC 15
 #define TFT_MOSI 3
 #define TFT_SCLK 6
@@ -70,9 +70,9 @@ static const uint8_t SCK  = 6;
 #define SPI_TOUCH_FREQUENCY 2500000
 
 #define BAD_RX 4
-#define BAD_TX 5
+#define BAD_TX 19
 #define GPS_SERIAL_RX 4
-#define GPS_SERIAL_TX 5
+#define GPS_SERIAL_TX 19
 
 // -----------------------------------------------------------------------------
 // Buttons
